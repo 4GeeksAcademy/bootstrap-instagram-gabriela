@@ -1,0 +1,52 @@
+.headercontainer{
+    background-color: #e4e2e2d3;
+}
+.img-thumbnail{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+}
+.dropdown{
+    background-color: grey;
+    border-radius: 10%;
+    margin-left: 5px;
+    padding-left: -30px;
+}
+.fa-gear{
+    align-items:center;
+}
+.dropdown-toggle{
+    color:white
+}
+.column2{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.column3{
+    margin-left: -25px;
+    margin-bottom: 5px;
+}
+.columngrid{
+    margin-right: -70px;
+}
+.imggrid{
+    width: 400px;
+    height: 400px;
+}
+.postbutton{
+    padding-top: 5px;
+}
+.imglayout{
+    width: 400px;
+    height: 400px;
+}
+
+.image-count {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    color: #ccc;
+    padding: 5px;
+  }

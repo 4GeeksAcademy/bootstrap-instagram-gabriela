@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <!--HEADER--->
+    <div class="headercontainer container">
+        <div class="row">
+          <div class="col p-0">
+            <img class="img-thumbnail"  src="https://www.virtualstacks.com/wp-content/uploads/2019/11/instagram-logo-name.png" alt="instagram-logo-name">
+          </div>
+          <div class="col-6">
+          </div>
+          <div class="col">
+            <ul class="nav nav-pills">
+                <li class="postbutton nav-item">
+                  <a class="nav-link active bg-success" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-current="page" href="#">Create a new post</a>
+                </li>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Caption:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="column2 col-2">
+                          <button class="btn btn-secondary" type="button">
+                          <i class="fa-solid fa-camera"></i>
+                          </button>
+                        </div>
+                        <div class="column3 col-2 ">
+                          <button class="btn btn-secondary" type="button"> 
+                          <i class="fa-solid fa-location-dot "></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary bg-success">Publish</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    <i class="fa-solid fa-gear" style="color: white;"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                  </ul>
+            </ul> 
+          </div>
+        </div>  
+    </div>
+<!---pre body-->
+    
+  <ul class="nav nav-pills  justify-content-md-center" id="pills-tab" role="tablist">
+     <li class="nav-item" role="presentation">
+       <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+        <i class="fa-solid fa-table-cells"></i>
+       </button>
+     </li>
+      <li class="nav-item" role="presentation">
+       <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+        <i class="fa-solid fa-square"></i>
+       </button>
+      </li>
+  </ul>    
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <!--Grid view-->
+      <div class="container">
+        <div class="row gx-2">
+          <div class=" col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_HK02_1200x1200_8e0362aa-6b38-4f53-9d87-227bc923075d_1024x1024.png?v=1667247735" alt="hello-kitty1">
+          </div>
+           <div class="col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/10-31_KT_1200x1200_Meet_KT_1024x1024.png?v=1667247775" alt="bd-hellokitty">
+           </div>
+          <div class="col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10252022-01-Mimmy_1024x1024.jpg?v=1667247848" alt="hello-sister">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row gx-2 ">
+         <div class=" col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10252022-02-MamaPapaGrandpaGrandma_1024x1024.jpg?v=1667247872" alt="hello-kitty-family">
+          </div>
+         <div class="col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10252022-03-DearDaniel_1024x1024.jpg?v=1667247896" alt="bf-hellokitty">
+         </div>
+         <div class="col-4">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10272022-05-TinyChum_1024x1024.jpg?v=1667247915" alt="hello-pet">
+         </div>
+        </div>
+      </div>  
+      <div class="container">
+        <div class="row gx-2 ">
+         <div class=" col-4 ">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10252022-04-Friends_1024x1024.jpg?v=1667247946" alt="hello-kitty-family">
+          </div>
+         <div class="col-4 ">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/MicrosoftTeams-image_75_1024x1024.jpg?v=1667249976" alt="bf-hellokitty">
+         </div>
+         <div class="col-4 ">
+            <img class="imggrid rounded mx-auto d-block" src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/soc_mymelodyFOTMbio_12292021_01_1200x1200_6d52f3a8-933f-45f2-b8ce-01d31710d7bf_480x480.png?v=1642031351" alt="hello-pet">
+         </div>
+        </div>
+      </div>  
+  </div>  
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <!--OTHER VIEW-->
+    <div class="container d-flex justify-content-center mt-5">      
+      <div class="card" style="width: 40rem;">
+        <p class="card-text fw-bold">Say hello to our Friend of the Month, Hello Kitty! <span class="image-count">08/26</span></p>
+        <img src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_HK02_1200x1200_8e0362aa-6b38-4f53-9d87-227bc923075d_1024x1024.png?v=1667247735" class="card-img-top" alt="hello-kitty1">
+        <div class="card-body">
+          <p class="card-text"><strong>1,000 likes</strong></p>
+          <p class="card-text">Hello Kitty was born in the suburbs of London and lives with her twin sister Mimmy and her parents. Her hobbies include baking cookies and making new friends. She is about 5 apples tall but weighs 3 apples! Her dream is to become a pianist or a poet someday. As she always says, "You can never have too many friends!". </p>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center mt-5">      
+      <div class="card" style="width: 40rem;">
+        <p class="card-text fw-bold">Check out more fun facts about our Friend of the Month: <span class="image-count">08/30</span></p>
+        <img src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/10-31_KT_1200x1200_Meet_KT_1024x1024.png?v=1667247775" class="card-img-top" alt="bd-hello-kitty">
+        <div class="card-body">
+            <p class="card-text"><strong>1,500 likes</strong></p>
+            <p class="card-text">Hello Kitty was born in the suburbs of London and lives with her twin sister Mimmy and her parents. Her hobbies include baking cookies and making new friends. She is about 5 apples tall but weighs 3 apples! Her dream is to become a pianist or a poet someday. As she always says, "You can never have too many friends!". </p>
+        </div>
+      </div>        
+    </div>
+    <div class="container d-flex justify-content-center mt-5">      
+      <div class="card" style="width: 40rem;">
+        <p class="card-text fw-bold">Let’s meet Hello Kitty’s twin sister, Mimmy! <span class="image-count">09/12</span></p>
+        <img src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/blog-HK-Family-Friends-10252022-01-Mimmy_1024x1024.jpg?v=1667247848" class="card-img-top" alt="hello-sister>
+        <div class="card-body">
+          <p class="card-text"><strong>1,600 likes</strong></p>
+          <p class="card-text">Mimmy is Hello Kitty’s twin sister! She has a shy and quiet personality and wears a yellow bow on her right ear. Her favorite subject is home economics and she’s great at embroidery and patchwork! </p>
+        </div>
+      </div>        
+    </div>
+  </div>    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>          
+</body>
+</html>
